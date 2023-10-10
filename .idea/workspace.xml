@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="614fbf99-dd1d-4013-af6f-f5ffbdd795b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaEpamTraining.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/melnikov/balls/entity/Ball.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/melnikov/balls/entity/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/melnikov/balls/entity/Type.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/melnikov/balls/main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/melnikov/balls/service/BallService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/melnikov/balls/service/BallServiceImpl.java" afterDir="false" />
-    </list>
+    <list default="true" id="614fbf99-dd1d-4013-af6f-f5ffbdd795b0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

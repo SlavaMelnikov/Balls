@@ -13,7 +13,7 @@ public class Main {
 
         List<Ball> balls = ballService.createBalls();
         double totalWeight = ballService.countTotalWeight(balls);
-        int ballByColor = ballService.countBallsByColor(balls, Color.RED);
+        int ballByColor = ballService.countBallsByColor(balls, Color.BLUE);
 
 
         // для проверки
