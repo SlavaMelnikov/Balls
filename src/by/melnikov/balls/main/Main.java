@@ -13,7 +13,7 @@ public class Main {
 
         List<Ball> balls = ballService.createBalls();
         double totalWeight = ballService.countTotalWeight(balls);
-        int ballByColor = ballService.countBallsByColor(balls, Color.BLUE);
+        int numberOfBallsByColor = ballService.countBallsByColor(balls, Color.BLUE);
 
 
         // для проверки
@@ -21,6 +21,6 @@ public class Main {
             System.out.println(ball);
         }
         System.out.println("Total weight of balls = " + totalWeight);
-        System.out.println("Number of balls of a certain color = " + ballByColor);
+        System.out.println("Number of balls of a certain color = " + numberOfBallsByColor);
     }
 }

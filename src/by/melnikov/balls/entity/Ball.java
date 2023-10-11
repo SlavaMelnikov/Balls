@@ -9,10 +9,10 @@ public class Ball {
     private Type type;
 
     public Ball(double weight, double radius, Color color, Type type) {
-        this.weight = weight;
-        this.radius = radius;
-        this.color = color;
-        this.type = type;
+        setWeight(weight);
+        setRadius(radius);
+        setColor(color);
+        setType(type);
     }
 
     public double getWeight() {
@@ -22,6 +22,8 @@ public class Ball {
     public void setWeight(double weight) {
         if (weight >= 200.0 && weight <= 500.0) {
             this.weight = weight;
+        } else {
+            this.weight = 200.0;
         }
     }
 
@@ -32,6 +34,8 @@ public class Ball {
     public void setRadius(double radius) {
         if (radius >= 100.0 && radius <= 200.0) {
             this.radius = radius;
+        } else {
+            this.radius = 100.0;
         }
     }
 
@@ -42,6 +46,8 @@ public class Ball {
     public void setColor(Color color) {
         if (color != null) {
             this.color = color;
+        } else {
+            this.color = Color.WHITE;
         }
     }
 
@@ -52,6 +58,8 @@ public class Ball {
     public void setType(Type type) {
         if (type != null) {
             this.type = type;
+        } else {
+            this.type = Type.FOOTBALL;
         }
     }
 
