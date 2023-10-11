@@ -1,9 +1,9 @@
 ### IntelliJ IDEA ###
-idea/
+.idea/
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
-*.iml
+JavaEpamTraining.iml
 
 ### Eclipse ###
 .apt_generated
